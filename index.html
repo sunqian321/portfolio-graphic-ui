@@ -13,7 +13,11 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="孙茜 · 作品集 ｜ 平面 &amp; UI 设计师">
 <meta property="og:description" content="平面 &amp; 电商设计 · UI 设计 · 数据可视化 · APP 原型设计">
-<meta property="og:image" content="assets/img/og-cover.jpg">
+<!-- og:image / og:url 必须写绝对网址。微信、邮件客户端、招聘系统抓分享卡时
+     不会帮你补全相对路径，写 "assets/img/og-cover.jpg" 的结果是卡片没有图。
+     这里指向 Cloudflare 域名：它比 github.io 快约 12 倍，投递时就发这个链接。 -->
+<meta property="og:url" content="https://portfolio-graphic-ui.pages.dev/">
+<meta property="og:image" content="https://portfolio-graphic-ui.pages.dev/assets/img/og-cover.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
